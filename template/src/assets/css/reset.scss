@@ -1,0 +1,21 @@
+/* reset css */
+body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, button, input, select, figure, figcaption {
+  list-style: none;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  margin: 0;
+  font-style: normal;
+  font-family: "Microsoft Yahei", sans-serif;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  line-height: 1.5;
+}

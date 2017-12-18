@@ -1,0 +1,37 @@
+/* define mixin */
+
+// 单行省略
+@mixin ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* define function */
+// define function for transforming px to rem
+@function torem($px) {
+  @return $px / 20px * 1rem;
+}
+
+/* define color */
+// define Global variable,such like color variable
+$black: #000;
+$CodGray: #101010;
+$dustyGray: #999;
+$lightGray: #eee;
+$white:#fff;
+$Gallery: #efefef;
+
+// define module variable for color variable
+// $bgColor: #afcd37;
+
+// ------------------------------------------------------Module------------------------------------------
+// $Rose: #e4007f;
+// $Flamingo: #f75929; //火烈鸟
+// $Champagne: #fadad1; //香槟
+// $Alto: #ddd;
+// $Lochmara: #0085d0;
+// $LinkWater : #d5ebf7;
+// $MineShaft: #3d3d3d;
+// $Crimson: #cb152d;
+
