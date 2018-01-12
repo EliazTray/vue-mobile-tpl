@@ -20,6 +20,10 @@ import axios from './util/axios'
 import Rem from './util/rem'
 Rem(document, window)
 
+{{#isInRice}}
+import vConsole from './util/vconsole'
+vConsole()
+{{/isInRice}}
 Object.defineProperty(Vue.prototype, '$$axios', { value: axios })
 
 Vue.config.productionTip = false
