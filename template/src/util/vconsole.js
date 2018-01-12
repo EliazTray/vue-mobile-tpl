@@ -1,5 +1,5 @@
 export default function (option = {
-  cdn: 'https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/vconsole/3.0.0/vconsole.min.js',
+  cdn: 'https://cdn.jsdelivr.net/npm/vconsole@3.1.0/dist/vconsole.min.js',
   activeParams: 'vConsole', // 激活参数名称,
   loadCompleted: function() {
     //
