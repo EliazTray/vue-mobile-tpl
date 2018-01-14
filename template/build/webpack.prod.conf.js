@@ -127,7 +127,12 @@ const webpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       }
     ])
-  ]
+  ],
+    // add production externals
+    externals: {
+      'vue': 'Vue'{{#router}},
+      'vue-router': 'VueRouter'{{/router}}
+    }
 })
 
 if (config.build.productionGzip) {
