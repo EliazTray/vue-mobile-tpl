@@ -1,5 +1,34 @@
 /* reset css */
-body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, button, input, select, figure, figcaption {
+body,
+div,
+span,
+header,
+footer,
+nav,
+section,
+aside,
+article,
+ul,
+dl,
+dt,
+dd,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+b,
+textarea,
+button,
+input,
+select,
+figure,
+figcaption {
   list-style: none;
   box-sizing: border-box;
   padding: 0;
@@ -12,7 +41,8 @@ body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, l
   -webkit-font-smoothing: antialiased;
 }
 
-html, body {
+html,
+body {
   box-sizing: border-box;
   width: 100%;
   height: 100%;

@@ -1,10 +1,5 @@
 @import './mixin.scss';
 
-
-button:focus {
-  outline: none;
-}
-
 input:focus {
   outline: none;
 }
@@ -28,4 +23,8 @@ button {
     background: rgba(#000, .6);
     opacity: 1;
   }
+}
+
+button:focus {
+  outline: none;
 }
